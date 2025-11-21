@@ -20,7 +20,7 @@ def main():
             nombre = input("Nombre: ")
             edad = int(input("Edad: "))
             usuario = fm.insert(nombre, edad)
-            print(f"Usuario insertado: {usuario}")
+            print(f"Usuario insertado: {usuario.to_line()}")
 
         elif opcion == "2":
             id = int(input("ID del usuario a actualizar: "))
